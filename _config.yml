@@ -1,2 +1,23 @@
-name: Rosdyana Kusuma
-markdown: kramdown
+# Site settings
+title: "Rosdyana Kusuma's Blog"
+header-img: "img/home-bg.jpg"
+email: "rosdyana.kusuma@gmail.com"
+description: ""
+baseurl: ""
+url: "http://rosdyana.github.io"
+twitter_username: "rosdyana_kusuma"
+github_username: "rosdyana"
+facebook_username: "r3m1ck"
+
+# Build settings
+markdown: "kramdown"
+highlighter: "rouge"
+permalink: "pretty"
+paginate: 10
+timezone: "Asia/Jakarta"
+exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
+plugins: ["jekyll-paginate", "jekyll-sitemap"]
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

@@ -1,0 +1,4 @@
+Sitemap: https://rosdyana.github.io/sitemap.xml
+
+User-agent: *
+Disallow: /img/
