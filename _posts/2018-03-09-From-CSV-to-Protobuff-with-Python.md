@@ -13,62 +13,64 @@ As we know Protocol buffers are Google's language-neutral, platform-neutral, ext
 Protocol buffer provided smaller, faster and simpler technology. Or we can define it as a way to encoding structured data in an efficient yet extensible format.
 Basically, protocol buffer supported by many programming language such as Java, Python, Objective-C, C++ and with proto3 it also supports JavaNano, Ruby, Go and C#.
 
-
 Protocol buffers have many advantages over XML for serializing structured data.
-- protocol buffers are simpler.
-- protocol buffers are 3 to 10 times smaller.
-- protocol buffers are 20 - 100 times faster.
-- protocol buffers are less ambiguous.
-- generate data access classes that are easier to use programmatically.
 
+-   protocol buffers are simpler.
+-   protocol buffers are 3 to 10 times smaller.
+-   protocol buffers are 20 - 100 times faster.
+-   protocol buffers are less ambiguous.
+-   generate data access classes that are easier to use programmatically.
 
-| No | Advantages |
-| -- |:----------:|
-| 1 | Schemas are awesome |
-| 2 | Backward compability |
-| 3 | Less boilerplate code |
-| 4 | validations and Extensibility |
-| 5 | Easy language interoperability |
-
+| No  |           Advantages           |
+| --- | :----------------------------: |
+| 1   |       Schemas are awesome      |
+| 2   |      Backward compability      |
+| 3   |      Less boilerplate code     |
+| 4   |  validations and Extensibility |
+| 5   | Easy language interoperability |
 
 for these example, we have CSV with structured bellow,
 | CompanyCode | CompanyName | Country | Ticker |
-|:-----------:|:-----------:|:-------:|:------:|
+|-----------|:-----------:|:-------:|:------:|
 | 2377 | China Steel Corp | TW | 2002 TT |
 | 2726 | Uni-President Enterprises Corp | TW | 1216 TT |
 | ... | ... | ... | ... |
 
 then, we would like to serializing those CSV into protocol buffers' format.
 we can create a proto file first and save it as company.proto
-```
-syntax = "proto3";
-package crilist;
 
-message CompanyMap {
-    string name = 1;
-    int64 code = 2;
-    string ticker = 4;
-    string countryCode = 5;
-}
-
-message CompanyList {
-    repeated CompanyMap company = 1;
-}
 ```protoc
+    syntax = "proto3";
+    package crilist;
 
-next, we need to generate classes from proto file for Python.
-in case you don't have protocol buffer installed on your machine, please follow this [link]:https://developers.google.com/protocol-buffers/docs/downloads
+    message CompanyMap {
+        string name = 1;
+        int64 code = 2;
+        string ticker = 4;
+        string countryCode = 5;
+    }
 
-run this command to generate the classes
+    message CompanyList {
+        repeated CompanyMap company = 1;
+    }
 ```
-protoc --proto_path=. --python_out=. company.proto
+
+    next, we need to generate classes from proto file for Python.
+    in case you don't have protocol buffer installed on your machine, please follow this [link]:https://developers.google.com/protocol-buffers/docs/downloads
+
+    run this command to generate the classes
+
 ```console
+protoc --proto_path=. --python_out=. company.proto
+
+```
 
 then you will have generated classes with name company_pb2.py
 
 now, the part to read the CSV file and convert it to protocol buffers.
 
-```
+```python
+
 import argparse
 import pandas as pd
 import company_pb2
@@ -94,15 +96,17 @@ def main():
     df = pd.read_csv(args.finput)
     saveToPB(df)
 
-if __name__ == "__main__":
+if **name** == "**main**":
     main()
+
+```
+those python script will read input.csv and save it to protocol buffers with name output_pb.
+If you want to stream the protocol buffers, you can use this python script.
 
 ```python
 
-those python script will read input.csv and save it to protocol buffers with name output_pb.
-If you want to stream the protocol buffers, you can use this python script.
-```
 # first we need to import the generated classes
+
 import company_pb2
 
 def ListCompany():
@@ -115,8 +119,9 @@ def ListCompany():
 def main():
     ListCompany()
 
-if __name__ == '__main__':
+if **name** == '**main**':
   main()
-```python
 
+```python
 hopes you getting clear about implementation of protocol buffers in python.
+```
