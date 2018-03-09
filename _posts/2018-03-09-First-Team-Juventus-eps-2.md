@@ -4,7 +4,7 @@ title:      "First Team : Juventus eps.2"
 subtitle:   "An episode 2 of Juventus first team series."
 date:       2018-003-09 21:48:00
 author:     "rosdyana"
-header-img: "img/2018-02-17-First-Team-Juventus-eps-2/first-team-juve-eps-2.JPG"
+header-img: "img/2018-03-09-First-Team-Juventus-eps-2/first-team-juve-eps-2.JPG"
 category:   daily
 tags:       [daily, life]
 ---
