@@ -9,7 +9,7 @@ category:   daily
 tags:       [daily, life]
 ---
 
-Episode 1
+Episode 2
 ![alt text](https://github.com/rosdyana/rosdyana.github.io/blob/master/img/2018-02-17-First-Team-Juventus-eps-2/first-team-juve-eps-2.JPG)
 Description
 Juve face a test of their focus on the pitch. Claudio Marchisio reflects on his lifelong bond with Juve. The club celebrates its 120th anniversary.
