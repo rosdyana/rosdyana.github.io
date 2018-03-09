@@ -17,4 +17,4 @@ Duration : 41 minutes
 Resolution : 480 x 320
 Data size : 292 MB
 Subtitle : English
-Download link : http://140.138.155.227/juve/first-team-juventus-eps-1.mp4
+Download link :~~http://140.138.155.227/juve/first-team-juventus-eps-1.mp4~~ will be move to another cloud storage.
