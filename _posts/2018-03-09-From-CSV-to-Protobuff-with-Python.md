@@ -22,7 +22,7 @@ Protocol buffers have many advantages over XML for serializing structured data.
 -   generate data access classes that are easier to use programmatically.
 
 | No  |           Advantages           |
-| --- | :----------------------------: |
+| --- | ---------------------------- |
 | 1   |       Schemas are awesome      |
 | 2   |      Backward compability      |
 | 3   |      Less boilerplate code     |
@@ -40,28 +40,28 @@ for these example, we have CSV with structured bellow,
 then, we would like to serializing those CSV into protocol buffers' format.
 we can create a proto file first and save it as company.proto
 
-```protoc
-    syntax = "proto3";
-    package crilist;
+```
+syntax = "proto3";
+package crilist;
 
-    message CompanyMap {
-        string name = 1;
-        int64 code = 2;
-        string ticker = 4;
-        string countryCode = 5;
-    }
+message CompanyMap {
+    string name = 1;
+    int64 code = 2;
+    string ticker = 4;
+    string countryCode = 5;
+}
 
-    message CompanyList {
-        repeated CompanyMap company = 1;
-    }
+message CompanyList {
+    repeated CompanyMap company = 1;
+}
 ```
 
-    next, we need to generate classes from proto file for Python.
-    in case you don't have protocol buffer installed on your machine, please follow this [link]:https://developers.google.com/protocol-buffers/docs/downloads
+next, we need to generate classes from proto file for Python.
+in case you don't have protocol buffer installed on your machine, please follow this [link]:https://developers.google.com/protocol-buffers/docs/downloads
 
-    run this command to generate the classes
+run this command to generate the classes
 
-```console
+```
 protoc --proto_path=. --python_out=. company.proto
 
 ```
@@ -125,4 +125,4 @@ if **name** == '**main**':
 
 ```
 
-hopes you getting clear about implementation of protocol buffers in
+hopes you getting clear about implementation of protocol buffers using python.
