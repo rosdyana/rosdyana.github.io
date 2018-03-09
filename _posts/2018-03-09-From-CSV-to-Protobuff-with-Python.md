@@ -57,7 +57,7 @@ message CompanyList {
 ```
 
 next, we need to generate classes from proto file for Python.
-in case you don't have protocol buffer installed on your machine, please follow this [link]:https://developers.google.com/protocol-buffers/docs/downloads
+in case you don't have protocol buffer installed on your machine, please follow this [link](https://developers.google.com/protocol-buffers/docs/downloads)
 
 run this command to generate the classes
 
