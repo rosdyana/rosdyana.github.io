@@ -30,11 +30,12 @@ Protocol buffers have many advantages over XML for serializing structured data.
 | 5   | Easy language interoperability |
 
 for these example, we have CSV with structured bellow,
+
 | CompanyCode | CompanyName | Country | Ticker |
 |-----------|:-----------:|:-------:|:------:|
 | 2377 | China Steel Corp | TW | 2002 TT |
 | 2726 | Uni-President Enterprises Corp | TW | 1216 TT |
-| ... | ... | ... | ... |
+|  |  |  |  |
 
 then, we would like to serializing those CSV into protocol buffers' format.
 we can create a proto file first and save it as company.proto
@@ -122,6 +123,6 @@ def main():
 if **name** == '**main**':
   main()
 
-```python
-hopes you getting clear about implementation of protocol buffers in python.
 ```
+
+hopes you getting clear about implementation of protocol buffers in
