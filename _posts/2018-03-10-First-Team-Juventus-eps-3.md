@@ -2,7 +2,7 @@
 layout:     post
 title:      "First Team : Juventus eps.3"
 subtitle:   "Third episode of Juventus first team netflix series."
-date:       2018-003-09 07:56:00
+date:       2018-03-10 07:56:00
 author:     "rosdyana"
 header-img: "img/2018-03-10-First-Team-Juventus-eps-3/first-team-juve-eps-3.JPG"
 category:   daily
