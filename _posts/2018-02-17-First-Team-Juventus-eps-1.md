@@ -10,9 +10,14 @@ tags:       [daily, life]
 ---
 
 Episode 1
-![alt text](https://github.com/rosdyana/rosdyana.github.io/blob/master/img/2018-02-17-First-Team-Juventus-eps-1/first-team-juve-eps-1.JPG)
+
+
+![Juve eps 1]({{site.url}}/img/2018-02-17-First-Team-Juventus-eps-1/first-team-juve-eps-1.JPG )
+
+
 Description
 The club marks a new season with an intimate exhibition match for its fans, then begins its quest for Serie A and Champions League trophies.
+
 Duration : 41 minutes
 Resolution : 480 x 320
 Data size : 292 MB

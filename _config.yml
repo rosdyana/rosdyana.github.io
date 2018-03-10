@@ -2,7 +2,7 @@
 title: "Rosdyana Kusuma's Blog"
 header-img: "img/home-bg.jpg"
 email: "rosdyana.kusuma@gmail.com"
-description: ""
+description: "coding, eat, juve!!"
 baseurl: ""
 url: "http://rosdyana.github.io"
 twitter_username: "rosdyana_kusuma"
@@ -14,7 +14,7 @@ markdown: "kramdown"
 highlighter: "rouge"
 permalink: "pretty"
 paginate: 10
-timezone: "Asia/Jakarta"
+timezone: "Asia/Taipei"
 exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
 plugins: ["jekyll-paginate", "jekyll-sitemap"]
 
