@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "First Team : Juventus eps.1"
-subtitle:   "First Team : Juventus eps.1."
+subtitle:   "First episode of Juventus first team netflix series."
 date:       2018-02-17 10:28:00
 author:     "rosdyana"
 header-img: "img/2018-02-17-First-Team-Juventus-eps-1/first-team-juve-eps-1.JPG"
