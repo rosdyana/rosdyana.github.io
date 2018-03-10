@@ -11,7 +11,7 @@ tags:       [daily, life]
 
 Episode 1
 
-{% youtube Y8E8H3YiiD4 %}
+<div class="youtube" id="Y8E8H3YiiD4"></div>
 
 Description
 The club marks a new season with an intimate exhibition match for its fans, then begins its quest for Serie A and Champions League trophies.
