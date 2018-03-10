@@ -9,6 +9,18 @@ twitter_username: "rosdyana_kusuma"
 github_username: "rosdyana"
 facebook_username: "r3m1ck"
 
+# sitemap
+sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
+
 # Build settings
 markdown: "kramdown"
 highlighter: "rouge"
@@ -16,7 +28,7 @@ permalink: "pretty"
 paginate: 10
 timezone: "Asia/Taipei"
 exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
-plugins: ["jekyll-paginate", "jekyll-sitemap"]
+gems: ["jekyll-paginate"]
 
 kramdown:
   input: GFM

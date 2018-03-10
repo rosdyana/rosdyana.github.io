@@ -9,7 +9,7 @@ category:   daily
 tags:       [daily, life, juve, netflix]
 ---
 
-Episode 2
+Episode 3
 
 
 ![Juve eps 3]({{site.url}}/img/2018-03-10-First-Team-Juventus-eps-3/first-team-juve-eps-3.JPG )

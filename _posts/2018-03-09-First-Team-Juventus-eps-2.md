@@ -12,7 +12,7 @@ tags:       [daily, life, juve, netfix]
 Episode 2
 
 
-![Juve eps 2]({{site.url}}/img/2018-02-17-First-Team-Juventus-eps-2/first-team-juve-eps-2.JPG )
+![Juve eps 2]({{site.url}}/img/2018-03-09-First-Team-Juventus-eps-2/first-team-juve-eps-2.JPG )
 
 
 Description
