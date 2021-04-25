@@ -10,6 +10,9 @@ github_username: "rosdyana"
 facebook_username: "r3m1ck"
 future: true
 
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+
 # sitemap
 sitemap:
     filename: "/sitemap.xml"
@@ -29,7 +32,7 @@ permalink: "pretty"
 paginate: 10
 timezone: "Asia/Taipei"
 exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
-gems: ["jekyll-paginate","jekyll-coffeescript"]
+gems: ["jekyll-include-cache", "jekyll-paginate","jekyll-coffeescript"]
 
 kramdown:
   input: GFM
